@@ -1,6 +1,5 @@
 # Job AI Project
 
----
 
 ## ✅ Phase 1 Goals
 
