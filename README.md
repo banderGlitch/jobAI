@@ -1,8 +1,5 @@
 # Job AI Project
 
-## Overview
-This is a React Native mobile application built with Expo.
-
 ---
 
 ## ✅ Phase 1 Goals
