@@ -4,6 +4,7 @@ from google.adk.a2a.utils.agent_to_a2a import to_a2a
 class SourceScoutAgent(BaseAgent):
     def run(self, input: dict) -> dict:
         return {
+            
             "criteria": input,
             "job_sources": [
                 {

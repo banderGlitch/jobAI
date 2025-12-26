@@ -70,3 +70,17 @@ Built as a **portfolio project** to demonstrate skills in:
 
 ## Getting Started
 
+
+## To start the python environment to python environment 
+
+.\venv\Scripts\Activate.ps1
+
+
+
+## To start the main orchestrator agent 
+adk web
+
+
+## To start the child agent
+
+uvicorn scout_agent.agent:a2a_app --host 0.0.0.0 --port 8001
