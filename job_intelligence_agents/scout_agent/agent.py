@@ -11,9 +11,8 @@ class SourceScoutAgent(Agent):
     name: str = "source_scout_agent"
     description: str = "Finds job sources"
 
-    async def _run_async_impl(
-      self, ctx: InvocationContext
-    ) -> AsyncGenerator[Event, None]:
+    async def _run_async_impl(self, ctx: InvocationContext) -> AsyncGenerator[Event, None]:
+
         """
         ADK-compliant implementation.
         Takes InvocationContext, yields Event objects.
@@ -52,6 +51,8 @@ root_agent = SourceScoutAgent()
 
 # REQUIRED: expose via A2A (auto-generates agent card)
 a2a_app = to_a2a(root_agent, port=8002)
+
+
 # from google.adk.agents import Agent
 
 # class SourceScoutAgent(Agent):
