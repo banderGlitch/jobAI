@@ -13,7 +13,7 @@ scout_agent = RemoteA2aAgent(
     name="source_scout_agent",
     description="Remote Scout Agent exposed via A2A",
     agent_card=(
-        "http://localhost:8002"+ AGENT_CARD_WELL_KNOWN_PATH
+        "http://localhost:8001"+ AGENT_CARD_WELL_KNOWN_PATH
     ),
 )
 
